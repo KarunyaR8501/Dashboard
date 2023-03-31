@@ -58,10 +58,10 @@ export default function Sidebar(){
             >
               <div className="bg-white py-2 collapse-inner rounded">
                 <h6 className="collapse-header">Custom Components:</h6>
-                <Link to='./Buttons' className="collapse-item" href="buttons.html">
+                <Link to='/Buttons' className="collapse-item" href="buttons.html">
                   Buttons
                 </Link>
-                <Link to='./Cards' className="collapse-item" href="cards.html">
+                <Link to='/Cards' className="collapse-item" href="cards.html">
                   Cards
                 </Link>
               </div>
@@ -88,16 +88,16 @@ export default function Sidebar(){
             >
               <div className="bg-white py-2 collapse-inner rounded">
                 <h6 className="collapse-header">Custom Utilities:</h6>
-                <Link to='./Colors' className="collapse-item" href="utilities-color.html">
+                <Link to='/Colors' className="collapse-item" href="utilities-color.html">
                   Colors
                 </Link>
-                <Link to='./Borders' className="collapse-item" href="utilities-border.html">
+                <Link to='/Borders' className="collapse-item" href="utilities-border.html">
                   Borders
                 </Link>
-                <Link to='./Animations' className="collapse-item" href="utilities-animation.html">
+                <Link to='/Animations' className="collapse-item" href="utilities-animation.html">
                   Animations
                 </Link>
-                <Link to='./Others' className="collapse-item" href="utilities-other.html">
+                <Link to='/Others' className="collapse-item" href="utilities-other.html">
                   Other
                 </Link>
               </div>
